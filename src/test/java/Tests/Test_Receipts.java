@@ -53,7 +53,7 @@ public class Test_Receipts {
         Assertions.assertEquals(EndPoints.REST_HttpStatus_OK , response.getStatusCode(), "Step 1 : Ошибка - Данные о всех квитанциях");
         List<ArrayList<String>> IdFiles =  response.jsonPath().getList("Id");
         ////////////////////////////////////////////////////////////////////////
-        /// Получаем первую квитанцию 111222
+        /// Получаем первую квитанцию 111222fff
         Test_Path = "/messages/"+IDMessage+"/receipts/"+IdFiles.get(0);
         Response response_kvit = baseTestMetod.GET_Method_ReturnResponeAsString(EndPoints.User_bifrost,EndPoints.Password_bifrost,EndPoints.REST_ContentType,EndPoints.BasePath_bifrost+ Test_Path);
         Assertions.assertEquals(EndPoints.REST_HttpStatus_OK , response_kvit.getStatusCode(), "Step 2 : Ошибка - Данные о 1-ой квитанции");
