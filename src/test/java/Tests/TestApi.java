@@ -148,7 +148,7 @@ public class TestApi {
     public void UnRest_Metod_Get_MessageId() {
         ///
         BaseTestMetod baseTestMetod = new BaseTestMetod();
-        String Test_Path = "";
+        String Test_Path;
         ////////////////////////////////////////////////////////////////////////
         /// Создаем сообщение
         Test_Path = "/messages";
@@ -166,7 +166,7 @@ public class TestApi {
         ////////////////////////////////////////////////////////////////////////
         /// Отправляем файл {{protocol}}://{{host}}/rapi2/messages/:MessageId/files/:FileId
         Test_Path ="/messages/" + IdMessages + "/files/" +IdFiles.get(0);
-        Response response_send = BaseTestMetod.PUT_Method_ReturnResponeAsString(EndPoints.FileForMEssages,EndPoints.User_bifrost,EndPoints.Password_bifrost,EndPoints.REST_ContentType,EndPoints.BasePath_bifrost+ Test_Path);
+        Response response_send = baseTestMetod.PUT_Method_ReturnResponeAsString(EndPoints.FileForMEssages,EndPoints.User_bifrost,EndPoints.Password_bifrost,EndPoints.REST_ContentType,EndPoints.BasePath_bifrost+ Test_Path);
         Assertions.assertEquals(EndPoints.REST_HttpStatus_Send , response_send.getStatusCode(), "Step 3 : Ошибка - Отправка файла");
 
         ////////////////////////////////////////////////////////////////////////

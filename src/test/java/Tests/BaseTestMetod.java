@@ -14,8 +14,8 @@ public class BaseTestMetod {
     public String  PostOutStr="";
 
 
-    static Response POST_Method_ReturnResponeAsString (String bodymessage, String user, String pass, String context, String path) {
-        Response response = RestAssured.given()
+     public Response POST_Method_ReturnResponeAsString (String bodymessage, String user, String pass, String context, String path) {
+         return  RestAssured.given()
                 .auth()
                 .preemptive()
                 .basic(user, pass)
@@ -35,12 +35,11 @@ public class BaseTestMetod {
         //String res = response.body().asString();
         /// Отдаем ответ сервера
         //ServerRespose = response.getStatusCode();
-        return response;
     }
 
-    static Response PUT_Method_ReturnResponeAsString (String FileMessageName, String user, String pass, String context, String path) {
+    public Response PUT_Method_ReturnResponeAsString (String FileMessageName, String user, String pass, String context, String path) {
                 File rrr = new File(FileMessageName);
-                Response response = RestAssured.given()
+                return RestAssured.given()
                 .auth()
                 .preemptive()
                 .basic(user, pass)
@@ -57,10 +56,10 @@ public class BaseTestMetod {
                 .then()
                 //.log().all()
                 .extract().response();
-        return response;    }
+        }
 
-    static Response GET_Method_ReturnResponeAsString (String user, String pass, String context, String path) {
-        Response response = RestAssured.given()
+    public Response GET_Method_ReturnResponeAsString (String user, String pass, String context, String path) {
+        return RestAssured.given()
                 .auth()
                 .preemptive()
                 .basic(user, pass)
@@ -71,11 +70,11 @@ public class BaseTestMetod {
                 .then()
                 .log().all()
                 .extract().response();
-        return response;
+
     }
 
-    static Response Delete_Method_ReturnResponeAsString (String user, String pass, String context, String path) {
-        Response response = RestAssured.given()
+    public Response Delete_Method_ReturnResponeAsString (String user, String pass, String context, String path) {
+         return RestAssured.given()
                 .auth()
                 .preemptive()
                 .basic(user, pass)
@@ -86,7 +85,7 @@ public class BaseTestMetod {
                 .then()
                 //.log().all()
                 .extract().response();
-        return response;
+
     }
 
 }
