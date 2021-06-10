@@ -62,7 +62,8 @@ public class Test_Receipts {
         ///System.out.println(response_kvit.body().asString());
         List<String> InArray = Arrays.asList("StatusInfo.xml.sig", "MPSO_IES1.xml.sig", "MPSO_IES1.xml", "StatusInfo.xml");
         Assertions.assertTrue(IdFilesName.stream().anyMatch(InArray :: contains), "Step 3 : Ошибка - Данные не сходятся");
-
+//
+        //
     }
 
 }
