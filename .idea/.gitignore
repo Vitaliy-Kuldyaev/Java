@@ -1,3 +1,10 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Ignore Logs
+logs
+*.log
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
