@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -42,10 +44,9 @@ public class Test_Receipts {
     /// Тестирование  Универсальный Rest
     /// Проверка Данные о квитанции сообщения
     /// Created by : V. Kuldyaev 01.06.2021
-    @Test
-    @DisplayName("123123")
     @Epic("Login Tests Epic")
     @Feature("Invalid Login Features")
+    @Test
     public void UnRest_Metod_Get_MessageId() {
         ///
         BaseTestMetod baseTestMetod = new BaseTestMetod();
@@ -67,6 +68,7 @@ public class Test_Receipts {
         ///System.out.println(response_kvit.body().asString());
         List<String> InArray = Arrays.asList("StatusInfo.xml.sig", "MPSO_IES1.xml.sig", "MPSO_IES1.xml", "StatusInfo.xml");
         Assertions.assertTrue(IdFilesName.stream().anyMatch(InArray :: contains), "Step 3 : Ошибка - Данные не сходятся");
+        Allure.addAttachment("Interface request response log",response_kvit.body().asString());
     }
 
 }

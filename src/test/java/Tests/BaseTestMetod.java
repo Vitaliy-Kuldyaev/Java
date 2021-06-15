@@ -1,10 +1,16 @@
 package Tests;
 
+import io.qameta.allure.Allure;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
+import io.restassured.config.LogConfig;
+import io.restassured.config.RestAssuredConfig;
 import io.restassured.response.Response;
 
 import javax.swing.*;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FilenameFilter;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -60,6 +66,8 @@ public class BaseTestMetod {
 
     public Response GET_Method_ReturnResponeAsString (String user, String pass, String context, String path) {
         return RestAssured.given()
+                //.filter(new AllureRestAssured().setRequestTemplate(“custom-http-request.ftl”).setResponseTemplate(“custom-http-response.ftl”))
+                //.config(RestAssuredConfig.config().logConfig(LogConfig.))
                 .auth()
                 .preemptive()
                 .basic(user, pass)
@@ -70,7 +78,13 @@ public class BaseTestMetod {
                 .then()
                 .log().all()
                 .extract().response();
-
+/*
+        try {
+            Allure.addAttachment("Interface request response log",new FileInputStream());
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+*/
     }
 
     public Response Delete_Method_ReturnResponeAsString (String user, String pass, String context, String path) {
