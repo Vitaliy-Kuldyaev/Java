@@ -4,6 +4,8 @@
 # Ignore Logs
 logs
 *.log
+jsons
+*result.json
 # Ignore IDE specific files
 .idea/
 .vscode/
