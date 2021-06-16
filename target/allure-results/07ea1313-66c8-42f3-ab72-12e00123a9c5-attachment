@@ -1,7 +1,24 @@
 Запрос : 
 POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages
 Body : 
-null
+{
+    "Task": "Zadacha_1-28",
+    "GroupId": null,
+    "Title": "тест отправки",
+    "Text": "тестовое отправка в фронт через ун рест",
+    "Files": [
+        {
+            "Name": "OKAXBRL1Reporting.zip.enc",
+            "Encrypted": true,
+            "SignedFile": null,
+            "RepositoryType": "http",
+            "Size": 1246
+        }
+    ],
+    "Receivers": [
+        
+    ]
+}
 
 
 Ответ : 
@@ -9,13 +26,13 @@ null
 
 Body: 
 {
-    "Id": "3c475cfb-442a-4d28-891b-e2267f13ce2b",
+    "Id": "1d38b867-2746-4cd3-8fba-a5dac763266e",
     "CorrelationId": null,
     "GroupId": null,
     "Type": "outbox",
     "Title": "тест отправки",
     "Text": "тестовое отправка в фронт через ун рест",
-    "CreationDate": "2021-06-16T12:31:08Z",
+    "CreationDate": "2021-06-16T14:11:31Z",
     "UpdatedDate": null,
     "Status": "draft",
     "TaskName": "Zadacha_1-28",
@@ -30,7 +47,7 @@ Body:
     },
     "Files": [
         {
-            "Id": "0a65d283-54f1-4283-8dcf-bf935ac62d5d",
+            "Id": "209e96a9-18de-4d96-a504-cb8a6ed92a2b",
             "Name": "OKAXBRL1Reporting.zip.enc",
             "Description": null,
             "Encrypted": true,
@@ -41,7 +58,7 @@ Body:
                     "RepositoryType": "http",
                     "Host": "vm-cb-bifrost.kld.neolant",
                     "Port": 8383,
-                    "Path": "rapi2/messages/3c475cfb-442a-4d28-891b-e2267f13ce2b/files/0a65d283-54f1-4283-8dcf-bf935ac62d5d/download"
+                    "Path": "rapi2/messages/1d38b867-2746-4cd3-8fba-a5dac763266e/files/209e96a9-18de-4d96-a504-cb8a6ed92a2b/download"
                 }
             ]
         }

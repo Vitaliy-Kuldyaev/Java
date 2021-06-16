@@ -1,0 +1,10 @@
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/1d38b867-2746-4cd3-8fba-a5dac763266e
+Body : 
+
+
+
+Ответ : 
+ Статус :200
+
+Body: 

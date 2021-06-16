@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-@Epic("API Tests")
-@Feature("API Test Receipts")
 public class Test_Receipts {
 
     public final String IDMessage = "A43E9B4A-974A-489A-8957-7D10BC789990";
@@ -43,6 +41,8 @@ public class Test_Receipts {
     /// Created by : V. Kuldyaev 01.06.2021
 
     @Test
+    @Epic("API Tests")
+    @Feature("API Test Receipts")
     @Story("/messages/IDMessage/receipts")
     @Description("Получаем квитанции")
     public void UnRest_Metod_Get_RecepiesId() {

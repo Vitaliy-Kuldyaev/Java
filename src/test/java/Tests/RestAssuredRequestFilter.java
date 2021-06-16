@@ -20,20 +20,17 @@ public class RestAssuredRequestFilter implements Filter {
     @Override
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec, FilterContext ctx) {
         Response response = ctx.next(requestSpec, responseSpec);
+
         Prettifier prettifier = new Prettifier();
-        String prettyResponseBody = prettifier.getPrettifiedBodyIfPossible(response, response.getBody());
+        //String prettyResponseBody = prettifier.getPrettifiedBodyIfPossible(response, response.getBody());
+        String prettyResponseBody = response.getBody() == null ? "" : prettifier.getPrettifiedBodyIfPossible(response, response.getBody());
 
         Prettifier prettifierReq = new Prettifier();
-        String prettyReqBody;
-        prettyReqBody = requestSpec.getBody() == null ? "пусто" : prettifierReq.getPrettifiedBodyIfPossible(requestSpec);
-  /*      try{
-            prettyReqBody = prettifierReq.getPrettifiedBodyIfPossible(response, requestSpec.getBody());
-        }catch (Exception e){
-            prettyReqBody = "null";
-        }*/
+        String prettyReqBody = requestSpec.getBody() == null ? "пусто" : prettifierReq.getPrettifiedBodyIfPossible(requestSpec);
+
         String subStr = requestSpec.getMethod()+"  "+ requestSpec.getURI();
-        subStr = subStr.length() > 100 ? subStr.substring(0, 100) : subStr;
-        logRequest(subStr+"...","Запрос : \n"+requestSpec.getMethod()+"  "+requestSpec.getURI()+"\nBody : \n"+prettyReqBody+"\n"+ "\n\nОтвет : \n Статус :" + response.statusCode()+"\n\nBody: \n"+
+        subStr = subStr.length() > 100 ? subStr.substring(0, 100) + " ..." : subStr;
+        logRequest(subStr,"Запрос : \n"+requestSpec.getMethod()+"  "+requestSpec.getURI()+"\nBody : \n"+prettyReqBody+"\n"+ "\n\nОтвет : \n Статус :" + response.statusCode()+"\n\nBody: \n"+
                 prettyResponseBody);//+
         return response;
     }

@@ -1,7 +1,7 @@
 Запрос : 
 GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/A43E9B4A-974A-489A-8957-7D10BC789990/receipts
 Body : 
-null
+пусто
 
 
 Ответ : 

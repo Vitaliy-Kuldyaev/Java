@@ -1,5 +1,5 @@
 Запрос : 
-PUT  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/4d0bcadf-4bb3-4294-918c-b99e26616d49/files/bf249a00-7f16-4f0f-81e9-b417874ce3f9
+PUT  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/1d38b867-2746-4cd3-8fba-a5dac763266e/files/209e96a9-18de-4d96-a504-cb8a6ed92a2b
 Body : 
 G:\1\Tests\63276 Кварц периодические операции\Kvit_deliver3.zip
 
@@ -9,7 +9,7 @@ G:\1\Tests\63276 Кварц периодические операции\Kvit_del
 
 Body: 
 {
-    "Id": "bf249a00-7f16-4f0f-81e9-b417874ce3f9",
+    "Id": "209e96a9-18de-4d96-a504-cb8a6ed92a2b",
     "Name": "OKAXBRL1Reporting.zip.enc",
     "Description": null,
     "Encrypted": true,
@@ -20,7 +20,7 @@ Body:
             "RepositoryType": "http",
             "Host": "vm-cb-bifrost.kld.neolant",
             "Port": 8383,
-            "Path": "rapi2/messages/4d0bcadf-4bb3-4294-918c-b99e26616d49/files/bf249a00-7f16-4f0f-81e9-b417874ce3f9/download"
+            "Path": "rapi2/messages/1d38b867-2746-4cd3-8fba-a5dac763266e/files/209e96a9-18de-4d96-a504-cb8a6ed92a2b/download"
         }
     ]
 }
