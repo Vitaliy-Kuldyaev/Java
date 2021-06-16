@@ -23,7 +23,7 @@ public class RestAssuredRequestFilter implements Filter {
 
         Prettifier prettifier = new Prettifier();
         //String prettyResponseBody = prettifier.getPrettifiedBodyIfPossible(response, response.getBody());
-        String prettyResponseBody = response.getBody() == null ? "" : prettifier.getPrettifiedBodyIfPossible(response, response.getBody());
+        String prettyResponseBody = response.getBody() == null ? "пусто" : prettifier.getPrettifiedBodyIfPossible(response, response.getBody());
 
         Prettifier prettifierReq = new Prettifier();
         String prettyReqBody = requestSpec.getBody() == null ? "пусто" : prettifierReq.getPrettifiedBodyIfPossible(requestSpec);
