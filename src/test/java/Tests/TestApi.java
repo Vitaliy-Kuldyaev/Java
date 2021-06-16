@@ -149,7 +149,7 @@ public class TestApi {
     @Test
     @Epic("API Tests")
     @Feature("API Test Messages")
-    @Story("/messages")
+    @Story("API Test - create message + create session + upload (1) file + close message")
     @Description("Получаем сообщение")
     public void UnRest_Metod_Get_MessageId() {
         ///

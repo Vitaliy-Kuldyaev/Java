@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.TestApi
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.477 s - in Tests.TestApi
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.967 s - in Tests.TestApi
