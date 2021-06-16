@@ -26,13 +26,13 @@ Body :
 
 Body: 
 {
-    "Id": "1d38b867-2746-4cd3-8fba-a5dac763266e",
+    "Id": "9107cdce-925c-4b36-bc1c-650c089ad51b",
     "CorrelationId": null,
     "GroupId": null,
     "Type": "outbox",
     "Title": "тест отправки",
     "Text": "тестовое отправка в фронт через ун рест",
-    "CreationDate": "2021-06-16T14:11:31Z",
+    "CreationDate": "2021-06-16T14:55:15Z",
     "UpdatedDate": null,
     "Status": "draft",
     "TaskName": "Zadacha_1-28",
@@ -47,7 +47,7 @@ Body:
     },
     "Files": [
         {
-            "Id": "209e96a9-18de-4d96-a504-cb8a6ed92a2b",
+            "Id": "b5dbecf1-8802-4546-b664-84334b737481",
             "Name": "OKAXBRL1Reporting.zip.enc",
             "Description": null,
             "Encrypted": true,
@@ -58,7 +58,7 @@ Body:
                     "RepositoryType": "http",
                     "Host": "vm-cb-bifrost.kld.neolant",
                     "Port": 8383,
-                    "Path": "rapi2/messages/1d38b867-2746-4cd3-8fba-a5dac763266e/files/209e96a9-18de-4d96-a504-cb8a6ed92a2b/download"
+                    "Path": "rapi2/messages/9107cdce-925c-4b36-bc1c-650c089ad51b/files/b5dbecf1-8802-4546-b664-84334b737481/download"
                 }
             ]
         }

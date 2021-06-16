@@ -1,5 +1,6 @@
-Tests\EndPoints.class
 Tests\Test_Receipts.class
 Tests\BaseTestMetod.class
 Tests\TestApi.class
 Tests\EndPoints$1.class
+Tests\EndPoints.class
+Tests\RestAssuredRequestFilter.class

@@ -1,21 +1,9 @@
 package Tests;
 
-import io.qameta.allure.Allure;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
-import io.restassured.config.LogConfig;
-import io.restassured.config.RestAssuredConfig;
-import io.restassured.filter.Filter;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.response.Response;
-
-import javax.swing.*;
 import java.io.*;
-import java.util.Arrays;
-import java.util.LinkedHashMap;
-import io.restassured.*;
 
 public class BaseTestMetod {
     public int ServerRespose=0;
