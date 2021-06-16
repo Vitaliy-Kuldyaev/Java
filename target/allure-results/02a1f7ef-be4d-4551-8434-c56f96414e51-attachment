@@ -1,0 +1,14 @@
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/4d0bcadf-4bb3-4294-918c-b99e26616d49/files/bf249a00-7f16-4f0f-81e9-b417874ce3f9/createUploadSession
+Body : 
+
+
+
+Ответ : 
+ Статус :200
+
+Body: 
+{
+    "UploadUrl": "https://portal5test.cbr.ru/Neolant.PFEI.UniversalService/rapi2/messages/4d0bcadf-4bb3-4294-918c-b99e26616d49/files/bf249a00-7f16-4f0f-81e9-b417874ce3f9",
+    "ExpirationDateTime": "2021-06-16T12:51:29Z"
+}

@@ -1,5 +1,9 @@
 package Tests;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.junit.jupiter.api.Assertions;
@@ -7,6 +11,8 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.util.*;
 
+@Epic("API Tests")
+@Feature("API Test Messages")
 public class TestApi {
 /*
     /// Тестирование  Универсальный Rest
@@ -145,6 +151,8 @@ public class TestApi {
     /// Проверка Скачать сообщение
     /// Created by : V. Kuldyaev 01.06.2021
     @Test
+    @Story("/messages")
+    @Description("Получаем сообщение")
     public void UnRest_Metod_Get_MessageId() {
         ///
         BaseTestMetod baseTestMetod = new BaseTestMetod();

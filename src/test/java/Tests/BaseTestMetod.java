@@ -1,6 +1,8 @@
 package Tests;
 
 import io.qameta.allure.Allure;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.config.LogConfig;
@@ -22,6 +24,7 @@ public class BaseTestMetod {
 
      public Response POST_Method_ReturnResponeAsString (String bodymessage, String user, String pass, String context, String path) {
          return  RestAssured.given()
+                .filter(new RestAssuredRequestFilter())
                 .auth()
                 .preemptive()
                 .basic(user, pass)
@@ -46,6 +49,7 @@ public class BaseTestMetod {
     public Response PUT_Method_ReturnResponeAsString (String FileMessageName, String user, String pass, String context, String path) {
                 File rrr = new File(FileMessageName);
                 return RestAssured.given()
+                .filter(new RestAssuredRequestFilter())
                 .auth()
                 .preemptive()
                 .basic(user, pass)
