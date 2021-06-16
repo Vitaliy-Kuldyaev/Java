@@ -1,0 +1,74 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages
+Body : 
+{
+    "Task": "Zadacha_1-28",
+    "GroupId": null,
+    "Title": "тест отправки",
+    "Text": "тестовое отправка в фронт через ун рест",
+    "Files": [
+        {
+            "Name": "OKAXBRL1Reporting.zip.enc",
+            "Encrypted": true,
+            "SignedFile": null,
+            "RepositoryType": "http",
+            "Size": 1246
+        }
+    ],
+    "Receivers": [
+        
+    ]
+}
+
+
+Ответ : 
+ Статус :200
+
+Body: 
+{
+    "Id": "fca772bd-5862-4764-9853-a4e2b5fb88cb",
+    "CorrelationId": null,
+    "GroupId": null,
+    "Type": "outbox",
+    "Title": "тест отправки",
+    "Text": "тестовое отправка в фронт через ун рест",
+    "CreationDate": "2021-06-16T15:12:51Z",
+    "UpdatedDate": null,
+    "Status": "draft",
+    "TaskName": "Zadacha_1-28",
+    "RegNumber": null,
+    "TotalSize": 1246,
+    "Sender": {
+        "Inn": "3906900937",
+        "Ogrn": "1153926000425",
+        "Bik": null,
+        "RegNum": "1253",
+        "DivisionCode": "0000"
+    },
+    "Files": [
+        {
+            "Id": "149e9f86-c300-4072-b2a4-7b2bede86fd3",
+            "Name": "OKAXBRL1Reporting.zip.enc",
+            "Description": null,
+            "Encrypted": true,
+            "SignedFile": null,
+            "Size": 1246,
+            "RepositoryInfo": [
+                {
+                    "RepositoryType": "http",
+                    "Host": "vm-cb-bifrost.kld.neolant",
+                    "Port": 8383,
+                    "Path": "rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb/files/149e9f86-c300-4072-b2a4-7b2bede86fd3/download"
+                }
+            ]
+        }
+    ],
+    "Receipts": [
+        
+    ]
+}

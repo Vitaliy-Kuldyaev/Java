@@ -1,0 +1,19 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb/files/149e9f86-c300-4072-b2a4-7b2bede86fd3/createUploadSession
+Body : 
+
+
+
+Ответ : 
+ Статус :200
+
+Body: 
+{
+    "UploadUrl": "https://portal5test.cbr.ru/Neolant.PFEI.UniversalService/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb/files/149e9f86-c300-4072-b2a4-7b2bede86fd3",
+    "ExpirationDateTime": "2021-06-16T15:22:52Z"
+}

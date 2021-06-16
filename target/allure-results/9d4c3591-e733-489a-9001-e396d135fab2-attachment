@@ -1,0 +1,15 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb
+Body : 
+
+
+
+Ответ : 
+ Статус :200
+
+Body: 

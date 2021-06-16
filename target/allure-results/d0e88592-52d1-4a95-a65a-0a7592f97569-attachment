@@ -1,0 +1,1235 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+
+Запрос : 
+GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/A43E9B4A-974A-489A-8957-7D10BC789990/receipts
+Body : 
+пусто
+
+
+Ответ : 
+ Статус :200
+
+Body: 
+[
+    {
+        "Id": "a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96",
+        "ReceiveTime": "2021-05-18T06:19:23Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "898fe41b-1ae7-4504-a960-52bd3ef44358",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "f8ddd0a3-e3b6-40ee-8f04-d61cb3054d62",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96/files/898fe41b-1ae7-4504-a960-52bd3ef44358/download"
+                    }
+                ]
+            },
+            {
+                "Id": "6477cabf-29ed-475e-b951-6e43406e7d98",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "fea51ea1-ad3a-4ddc-979f-b871eef19880",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96/files/6477cabf-29ed-475e-b951-6e43406e7d98/download"
+                    }
+                ]
+            },
+            {
+                "Id": "fea51ea1-ad3a-4ddc-979f-b871eef19880",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96/files/fea51ea1-ad3a-4ddc-979f-b871eef19880/download"
+                    }
+                ]
+            },
+            {
+                "Id": "f8ddd0a3-e3b6-40ee-8f04-d61cb3054d62",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96/files/f8ddd0a3-e3b6-40ee-8f04-d61cb3054d62/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "98dac766-f257-41b5-9dc6-1120281e0a88",
+        "ReceiveTime": "2018-06-23T13:47:23Z",
+        "StatusTime": "2018-06-23T13:47:23Z",
+        "Status": "sent",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "3c47bb9e-4b49-402f-a0d8-c40e75f49cc4",
+                "Name": "zapros.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 304696,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "null",
+                        "Host": "",
+                        "Port": 0,
+                        "Path": ""
+                    }
+                ]
+            },
+            {
+                "Id": "d73d19ad-a60a-4ddf-8354-eb41f857bbca",
+                "Name": "zapros.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 219452,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "null",
+                        "Host": "",
+                        "Port": 0,
+                        "Path": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "c9050c06-77c5-4c95-b1cf-12061da7f1dc",
+        "ReceiveTime": "2021-05-18T07:42:22Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "f9c39a32-b90e-4ef7-b0d9-0688e32c73b1",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "e3ee16c4-8cfd-45bd-a1e9-770830ee1494",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c9050c06-77c5-4c95-b1cf-12061da7f1dc/files/f9c39a32-b90e-4ef7-b0d9-0688e32c73b1/download"
+                    }
+                ]
+            },
+            {
+                "Id": "2ab0c630-0852-4003-8eb6-6aaa78726158",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c9050c06-77c5-4c95-b1cf-12061da7f1dc/files/2ab0c630-0852-4003-8eb6-6aaa78726158/download"
+                    }
+                ]
+            },
+            {
+                "Id": "e3ee16c4-8cfd-45bd-a1e9-770830ee1494",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c9050c06-77c5-4c95-b1cf-12061da7f1dc/files/e3ee16c4-8cfd-45bd-a1e9-770830ee1494/download"
+                    }
+                ]
+            },
+            {
+                "Id": "c82ef3b7-cfd1-4f3c-912c-de41c2cbe86b",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "2ab0c630-0852-4003-8eb6-6aaa78726158",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c9050c06-77c5-4c95-b1cf-12061da7f1dc/files/c82ef3b7-cfd1-4f3c-912c-de41c2cbe86b/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "2c03aba9-d9e6-4a16-8c5a-2f8148fb94bb",
+        "ReceiveTime": "2021-05-17T15:39:06Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "a082287e-ce54-4db9-8ad4-27fafde80e13",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "34106d86-70b0-414d-804b-8ef946ae7552",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/2c03aba9-d9e6-4a16-8c5a-2f8148fb94bb/files/a082287e-ce54-4db9-8ad4-27fafde80e13/download"
+                    }
+                ]
+            },
+            {
+                "Id": "22cfd6fa-572c-460c-921f-89e33de955f8",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/2c03aba9-d9e6-4a16-8c5a-2f8148fb94bb/files/22cfd6fa-572c-460c-921f-89e33de955f8/download"
+                    }
+                ]
+            },
+            {
+                "Id": "34106d86-70b0-414d-804b-8ef946ae7552",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/2c03aba9-d9e6-4a16-8c5a-2f8148fb94bb/files/34106d86-70b0-414d-804b-8ef946ae7552/download"
+                    }
+                ]
+            },
+            {
+                "Id": "1a7594fe-c669-4499-9965-91ee16cd20cd",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "22cfd6fa-572c-460c-921f-89e33de955f8",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/2c03aba9-d9e6-4a16-8c5a-2f8148fb94bb/files/1a7594fe-c669-4499-9965-91ee16cd20cd/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "3d58cd70-3a85-4976-83e4-5f738506342a",
+        "ReceiveTime": "2021-05-18T07:42:19Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "58f4a039-4225-4ba0-a531-894dd46a29c9",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/3d58cd70-3a85-4976-83e4-5f738506342a/files/58f4a039-4225-4ba0-a531-894dd46a29c9/download"
+                    }
+                ]
+            },
+            {
+                "Id": "0ea5dae5-74e9-4983-ab0c-9929a0b071c3",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "58f4a039-4225-4ba0-a531-894dd46a29c9",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/3d58cd70-3a85-4976-83e4-5f738506342a/files/0ea5dae5-74e9-4983-ab0c-9929a0b071c3/download"
+                    }
+                ]
+            },
+            {
+                "Id": "2a3780f8-0735-4d5d-908c-ca2969c518cd",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/3d58cd70-3a85-4976-83e4-5f738506342a/files/2a3780f8-0735-4d5d-908c-ca2969c518cd/download"
+                    }
+                ]
+            },
+            {
+                "Id": "a478bf50-338d-47c8-8ee1-ff1c1691e9d7",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "2a3780f8-0735-4d5d-908c-ca2969c518cd",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/3d58cd70-3a85-4976-83e4-5f738506342a/files/a478bf50-338d-47c8-8ee1-ff1c1691e9d7/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "6832d63f-a513-4043-8b40-737cb613cfd4",
+        "ReceiveTime": "2021-05-17T15:39:11Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "3987bd7b-7db9-4db8-91eb-00d899c074d0",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/6832d63f-a513-4043-8b40-737cb613cfd4/files/3987bd7b-7db9-4db8-91eb-00d899c074d0/download"
+                    }
+                ]
+            },
+            {
+                "Id": "8f0f01ad-bf18-4ad7-ba90-7af82885eb5e",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "b4332ef5-dd23-47b8-995b-b4a84b050d83",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/6832d63f-a513-4043-8b40-737cb613cfd4/files/8f0f01ad-bf18-4ad7-ba90-7af82885eb5e/download"
+                    }
+                ]
+            },
+            {
+                "Id": "b4332ef5-dd23-47b8-995b-b4a84b050d83",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/6832d63f-a513-4043-8b40-737cb613cfd4/files/b4332ef5-dd23-47b8-995b-b4a84b050d83/download"
+                    }
+                ]
+            },
+            {
+                "Id": "942fb803-d203-4f31-b9e9-f224f4262489",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "3987bd7b-7db9-4db8-91eb-00d899c074d0",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/6832d63f-a513-4043-8b40-737cb613cfd4/files/942fb803-d203-4f31-b9e9-f224f4262489/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "907ae4bc-8e82-4c8f-8d03-8333bbbe1721",
+        "ReceiveTime": "2021-05-18T07:39:13Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "ec316a64-f10a-45b6-809c-0da7ece87156",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "0f40c19c-bac1-4985-b170-30db2bd0824c",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/907ae4bc-8e82-4c8f-8d03-8333bbbe1721/files/ec316a64-f10a-45b6-809c-0da7ece87156/download"
+                    }
+                ]
+            },
+            {
+                "Id": "0f40c19c-bac1-4985-b170-30db2bd0824c",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/907ae4bc-8e82-4c8f-8d03-8333bbbe1721/files/0f40c19c-bac1-4985-b170-30db2bd0824c/download"
+                    }
+                ]
+            },
+            {
+                "Id": "121f2186-b1e6-4999-9443-5b50a38daa68",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/907ae4bc-8e82-4c8f-8d03-8333bbbe1721/files/121f2186-b1e6-4999-9443-5b50a38daa68/download"
+                    }
+                ]
+            },
+            {
+                "Id": "fd423a4b-9a4f-494d-9836-b48cc9d9961a",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "121f2186-b1e6-4999-9443-5b50a38daa68",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/907ae4bc-8e82-4c8f-8d03-8333bbbe1721/files/fd423a4b-9a4f-494d-9836-b48cc9d9961a/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "9388d5ee-4e8a-49ab-ab09-8369250ec126",
+        "ReceiveTime": "2021-05-06T10:19:55Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "3bb19620-6a1e-4c61-94a5-4926bce6f9b7",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "485dd31a-ff43-4423-8f53-a3aaf0853577",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/9388d5ee-4e8a-49ab-ab09-8369250ec126/files/3bb19620-6a1e-4c61-94a5-4926bce6f9b7/download"
+                    }
+                ]
+            },
+            {
+                "Id": "485dd31a-ff43-4423-8f53-a3aaf0853577",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/9388d5ee-4e8a-49ab-ab09-8369250ec126/files/485dd31a-ff43-4423-8f53-a3aaf0853577/download"
+                    }
+                ]
+            },
+            {
+                "Id": "38df6b03-90d2-4e06-b4ae-df80862025de",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "ede2c3cd-b64c-4a29-9fca-f7986d62e353",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/9388d5ee-4e8a-49ab-ab09-8369250ec126/files/38df6b03-90d2-4e06-b4ae-df80862025de/download"
+                    }
+                ]
+            },
+            {
+                "Id": "ede2c3cd-b64c-4a29-9fca-f7986d62e353",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/9388d5ee-4e8a-49ab-ab09-8369250ec126/files/ede2c3cd-b64c-4a29-9fca-f7986d62e353/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "7ae05ee5-ffa0-4f83-87d3-850cc027257f",
+        "ReceiveTime": "2021-05-06T10:16:52Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "3c4c9bab-fe92-4ddd-b099-0badb5fe5b68",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/7ae05ee5-ffa0-4f83-87d3-850cc027257f/files/3c4c9bab-fe92-4ddd-b099-0badb5fe5b68/download"
+                    }
+                ]
+            },
+            {
+                "Id": "ebb0f256-17fc-4ac6-9424-8930f22efc01",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "99847906-ac18-4898-8521-e6c806b5b496",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/7ae05ee5-ffa0-4f83-87d3-850cc027257f/files/ebb0f256-17fc-4ac6-9424-8930f22efc01/download"
+                    }
+                ]
+            },
+            {
+                "Id": "99847906-ac18-4898-8521-e6c806b5b496",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/7ae05ee5-ffa0-4f83-87d3-850cc027257f/files/99847906-ac18-4898-8521-e6c806b5b496/download"
+                    }
+                ]
+            },
+            {
+                "Id": "8ccf3940-50d0-4bfa-8a71-ec3e5f0b4b60",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "3c4c9bab-fe92-4ddd-b099-0badb5fe5b68",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/7ae05ee5-ffa0-4f83-87d3-850cc027257f/files/8ccf3940-50d0-4bfa-8a71-ec3e5f0b4b60/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "ae4d37bf-50b8-4353-9d64-86e65665505a",
+        "ReceiveTime": "2018-06-23T13:47:23Z",
+        "StatusTime": "2018-06-23T14:47:23Z",
+        "Status": "delivered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "7271cc83-f6c0-47f2-b3f4-3e885c3f87b9",
+                "Name": "zapros.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 304696,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "null",
+                        "Host": "",
+                        "Port": 0,
+                        "Path": ""
+                    }
+                ]
+            },
+            {
+                "Id": "fbd1b385-497c-483a-b73e-c597b9f079ed",
+                "Name": "zapros.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 219452,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "null",
+                        "Host": "",
+                        "Port": 0,
+                        "Path": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "c7d1223d-b3cb-4060-861b-987d1d7e1dc8",
+        "ReceiveTime": "2021-05-26T10:46:57Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "f9f4fd21-f6c2-419a-a143-1da8d591e015",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c7d1223d-b3cb-4060-861b-987d1d7e1dc8/files/f9f4fd21-f6c2-419a-a143-1da8d591e015/download"
+                    }
+                ]
+            },
+            {
+                "Id": "3c1bc47c-dda9-435f-a70f-2c33e4cc740b",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c7d1223d-b3cb-4060-861b-987d1d7e1dc8/files/3c1bc47c-dda9-435f-a70f-2c33e4cc740b/download"
+                    }
+                ]
+            },
+            {
+                "Id": "b6d2ce35-4933-4af6-8599-3eb40f273d1e",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "3c1bc47c-dda9-435f-a70f-2c33e4cc740b",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c7d1223d-b3cb-4060-861b-987d1d7e1dc8/files/b6d2ce35-4933-4af6-8599-3eb40f273d1e/download"
+                    }
+                ]
+            },
+            {
+                "Id": "3450d890-9ac4-46b6-9574-e42fb6c01168",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "f9f4fd21-f6c2-419a-a143-1da8d591e015",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/c7d1223d-b3cb-4060-861b-987d1d7e1dc8/files/3450d890-9ac4-46b6-9574-e42fb6c01168/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "4d8d7fc2-46aa-40f5-aad6-999c302f9e2b",
+        "ReceiveTime": "2021-05-17T15:39:55Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "a66840bd-153d-4397-8fdd-2e0fd325d190",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/4d8d7fc2-46aa-40f5-aad6-999c302f9e2b/files/a66840bd-153d-4397-8fdd-2e0fd325d190/download"
+                    }
+                ]
+            },
+            {
+                "Id": "f3aeb661-986e-4c85-be22-38aba7883553",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "0455eb1d-d26d-45b8-824b-de9f00e0d8b1",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/4d8d7fc2-46aa-40f5-aad6-999c302f9e2b/files/f3aeb661-986e-4c85-be22-38aba7883553/download"
+                    }
+                ]
+            },
+            {
+                "Id": "3813125d-f25d-4645-978c-7cc756f21b7d",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "a66840bd-153d-4397-8fdd-2e0fd325d190",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/4d8d7fc2-46aa-40f5-aad6-999c302f9e2b/files/3813125d-f25d-4645-978c-7cc756f21b7d/download"
+                    }
+                ]
+            },
+            {
+                "Id": "0455eb1d-d26d-45b8-824b-de9f00e0d8b1",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/4d8d7fc2-46aa-40f5-aad6-999c302f9e2b/files/0455eb1d-d26d-45b8-824b-de9f00e0d8b1/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "35ebf9a9-7cf4-47e2-933a-9da40b22bf55",
+        "ReceiveTime": "2021-05-18T06:19:20Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "fbd277ac-4287-42f2-b5de-17b52da2ea9f",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "2a280592-6735-4404-a077-797763f7fa56",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/35ebf9a9-7cf4-47e2-933a-9da40b22bf55/files/fbd277ac-4287-42f2-b5de-17b52da2ea9f/download"
+                    }
+                ]
+            },
+            {
+                "Id": "a2f98b7b-7339-4561-88d6-614df20b1c02",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/35ebf9a9-7cf4-47e2-933a-9da40b22bf55/files/a2f98b7b-7339-4561-88d6-614df20b1c02/download"
+                    }
+                ]
+            },
+            {
+                "Id": "2a280592-6735-4404-a077-797763f7fa56",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/35ebf9a9-7cf4-47e2-933a-9da40b22bf55/files/2a280592-6735-4404-a077-797763f7fa56/download"
+                    }
+                ]
+            },
+            {
+                "Id": "5c093677-92db-4427-928f-90d23b10e80d",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "a2f98b7b-7339-4561-88d6-614df20b1c02",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/35ebf9a9-7cf4-47e2-933a-9da40b22bf55/files/5c093677-92db-4427-928f-90d23b10e80d/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "d9924c43-49b6-44e9-b48d-a0cc42670f29",
+        "ReceiveTime": "2021-05-17T15:39:59Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "d46d5291-00ad-42b9-898d-2d8a60671996",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "e0130f77-a5f6-4047-89e9-a1d3099022e9",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/d9924c43-49b6-44e9-b48d-a0cc42670f29/files/d46d5291-00ad-42b9-898d-2d8a60671996/download"
+                    }
+                ]
+            },
+            {
+                "Id": "5fe9b283-b900-4e63-aecf-616ea8b569a6",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/d9924c43-49b6-44e9-b48d-a0cc42670f29/files/5fe9b283-b900-4e63-aecf-616ea8b569a6/download"
+                    }
+                ]
+            },
+            {
+                "Id": "e0130f77-a5f6-4047-89e9-a1d3099022e9",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/d9924c43-49b6-44e9-b48d-a0cc42670f29/files/e0130f77-a5f6-4047-89e9-a1d3099022e9/download"
+                    }
+                ]
+            },
+            {
+                "Id": "82bf2b4f-518b-4f8a-b8bf-ffa20585b6bd",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "5fe9b283-b900-4e63-aecf-616ea8b569a6",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/d9924c43-49b6-44e9-b48d-a0cc42670f29/files/82bf2b4f-518b-4f8a-b8bf-ffa20585b6bd/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "f5b3383b-0b8a-4d21-827e-aef9836fb15c",
+        "ReceiveTime": "2018-06-23T13:47:23Z",
+        "StatusTime": "2018-06-23T15:47:23Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "865b84cb-7e80-406f-a284-0225fa39e72b",
+                "Name": "zapros.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 219452,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "null",
+                        "Host": "",
+                        "Port": 0,
+                        "Path": ""
+                    }
+                ]
+            },
+            {
+                "Id": "34966d86-8c0d-40b7-b9e7-c371bd87e324",
+                "Name": "zapros.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 304696,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "null",
+                        "Host": "",
+                        "Port": 0,
+                        "Path": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "ed0c49bb-b1e4-47ce-b914-c578db36bc78",
+        "ReceiveTime": "2021-05-06T13:47:28Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "db68b550-70e6-48bf-8e39-65e4806588ee",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/ed0c49bb-b1e4-47ce-b914-c578db36bc78/files/db68b550-70e6-48bf-8e39-65e4806588ee/download"
+                    }
+                ]
+            },
+            {
+                "Id": "fc665323-30d6-47ac-9257-aacf3942b963",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/ed0c49bb-b1e4-47ce-b914-c578db36bc78/files/fc665323-30d6-47ac-9257-aacf3942b963/download"
+                    }
+                ]
+            },
+            {
+                "Id": "4902cb22-9e76-4f9d-a19b-ab8246c84e87",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "fc665323-30d6-47ac-9257-aacf3942b963",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/ed0c49bb-b1e4-47ce-b914-c578db36bc78/files/4902cb22-9e76-4f9d-a19b-ab8246c84e87/download"
+                    }
+                ]
+            },
+            {
+                "Id": "d412c5da-720e-477c-ab82-fc87c48719b8",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "db68b550-70e6-48bf-8e39-65e4806588ee",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/ed0c49bb-b1e4-47ce-b914-c578db36bc78/files/d412c5da-720e-477c-ab82-fc87c48719b8/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "0dc46f2a-7a0e-44e8-9604-c97c2632b8b4",
+        "ReceiveTime": "2021-05-18T07:39:10Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "453c2761-feea-4b9f-8bd5-221a00b2f99f",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "7c3c3a0d-8687-4c3c-a3a5-5c290fdc1038",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/0dc46f2a-7a0e-44e8-9604-c97c2632b8b4/files/453c2761-feea-4b9f-8bd5-221a00b2f99f/download"
+                    }
+                ]
+            },
+            {
+                "Id": "b359934a-7246-4ebd-98d9-37557ab4aa02",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "98bfa0bb-2770-46cc-88c2-57d7554f3014",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/0dc46f2a-7a0e-44e8-9604-c97c2632b8b4/files/b359934a-7246-4ebd-98d9-37557ab4aa02/download"
+                    }
+                ]
+            },
+            {
+                "Id": "98bfa0bb-2770-46cc-88c2-57d7554f3014",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/0dc46f2a-7a0e-44e8-9604-c97c2632b8b4/files/98bfa0bb-2770-46cc-88c2-57d7554f3014/download"
+                    }
+                ]
+            },
+            {
+                "Id": "7c3c3a0d-8687-4c3c-a3a5-5c290fdc1038",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/0dc46f2a-7a0e-44e8-9604-c97c2632b8b4/files/7c3c3a0d-8687-4c3c-a3a5-5c290fdc1038/download"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Id": "faec58ee-214b-41d8-b5ad-d38c3520025b",
+        "ReceiveTime": "2021-05-26T10:46:46Z",
+        "StatusTime": "2020-04-27T22:10:45Z",
+        "Status": "registered",
+        "Message": null,
+        "Files": [
+            {
+                "Id": "5ee5d1af-d0cd-4529-b048-441b4fac619c",
+                "Name": "StatusInfo.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "fd8acf03-fa5b-49ab-9fb6-47fd9eeacb1f",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/faec58ee-214b-41d8-b5ad-d38c3520025b/files/5ee5d1af-d0cd-4529-b048-441b4fac619c/download"
+                    }
+                ]
+            },
+            {
+                "Id": "fd8acf03-fa5b-49ab-9fb6-47fd9eeacb1f",
+                "Name": "StatusInfo.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 391,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/faec58ee-214b-41d8-b5ad-d38c3520025b/files/fd8acf03-fa5b-49ab-9fb6-47fd9eeacb1f/download"
+                    }
+                ]
+            },
+            {
+                "Id": "3664b157-5b74-46a0-92d8-55d9dec1f618",
+                "Name": "MPSO_IES1.xml",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": null,
+                "Size": 379,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/faec58ee-214b-41d8-b5ad-d38c3520025b/files/3664b157-5b74-46a0-92d8-55d9dec1f618/download"
+                    }
+                ]
+            },
+            {
+                "Id": "de7967ae-eda2-4c6d-bc70-a1fdaa3b1308",
+                "Name": "MPSO_IES1.xml.sig",
+                "Description": null,
+                "Encrypted": false,
+                "SignedFile": "3664b157-5b74-46a0-92d8-55d9dec1f618",
+                "Size": 2758,
+                "RepositoryInfo": [
+                    {
+                        "RepositoryType": "Http",
+                        "Host": "vm-cb-bifrost.kld.neolant",
+                        "Port": 8383,
+                        "Path": "rapi2/messages/a43e9b4a-974a-489a-8957-7d10bc789990/receipts/faec58ee-214b-41d8-b5ad-d38c3520025b/files/de7967ae-eda2-4c6d-bc70-a1fdaa3b1308/download"
+                    }
+                ]
+            }
+        ]
+    }
+]
