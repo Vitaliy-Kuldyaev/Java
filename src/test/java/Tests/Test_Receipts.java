@@ -43,7 +43,7 @@ public class Test_Receipts {
     @Test
     @Epic("API Tests")
     @Feature("API Test Receipts")
-    @Story("/messages/IDMessage/receipts")
+    @Story("API Test - read receipt + read receipt by Id")
     @Description("Получаем квитанции")
     public void UnRest_Metod_Get_RecepiesId() {
         ///
