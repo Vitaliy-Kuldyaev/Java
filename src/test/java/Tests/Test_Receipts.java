@@ -57,7 +57,7 @@ public class Test_Receipts {
         Assertions.assertEquals(EndPoints.REST_HttpStatus_OK , response.getStatusCode(), "Step 1 : Ошибка - Данные о всех квитанциях");
         List<ArrayList<String>> IdFiles =  response.jsonPath().getList("Id");
         ////////////////////////////////////////////////////////////////////////
-        /// Получаем первую квитанцию
+        /// Получаем первую квитанцию 2312
         //IdFiles.set(0,"a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96");
         Test_Path = "/messages/"+IDMessage+"/receipts/a048c3e5-f6ef-4f3a-bf24-0e65eb5a7b96";
         //Test_Path = "/messages/"+IDMessage+"/receipts/"+IdFiles.get(0);
