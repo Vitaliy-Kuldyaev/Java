@@ -1,0 +1,45 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages
+Body : 
+{
+    "Task": "Zadacha_1-28",
+    "GroupId": null,
+    "Title": "тест отправки",
+    "Text": "тестовое отправка в фронт через ун рест",
+    "Files": [
+        {
+            "Name": "OKAXBRL1Reporting.zip.enc",
+            "Encrypted": true,
+            "SignedFile": null,
+            "RepositoryType": "http",
+            "Size": 1246
+        }
+    ],
+    "Receivers": [
+        
+    ]
+}
+
+
+Ответ : 
+ Статус :406
+
+Body: 
+{
+    "HTTPStatus": 406,
+    "ErrorCode": "INVALID_FILE_EXTENSION",
+    "ErrorMessage": "Недопустимое расширение файла для данной задачи",
+    "MoreInfo": {
+        "InvalidFiles": [
+            {
+                "FileName": "OKAXBRL1Reporting.zip.enc"
+            }
+        ],
+        "ValidExtensions": "*.zip.enc;*.zip.sig;*.zip;*.zip.1.sig;*.zip.2.sig"
+    }
+}

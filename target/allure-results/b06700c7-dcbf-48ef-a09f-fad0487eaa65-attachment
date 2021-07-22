@@ -1,0 +1,22 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=application/json
+Content-Type=application/json; charset=UTF-8
+
+Запрос : 
+POST  http://vm-cb-bifrost.kld.neolant:8181/api/auth
+Body : 
+{
+  Login: "vmcbtest",
+  Password: "Ghjdthrf123!"
+}
+
+
+Ответ : 
+ Статус :403
+
+Body: 
+{
+    "data": null,
+    "message": "Доступ запрещен"
+}

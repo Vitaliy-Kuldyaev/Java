@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Tests.AvatarTests" time="11.708" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\java\prg\Java\target\test-classes;C:\java\prg\Java\target\classes;C:\Users\VKuldyaev\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\VKuldyaev\.m2\repository\org\slf4j\slf4j-simple\1.7.21\slf4j-simple-1.7.21.jar;C:\Users\VKuldyaev\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\VKuldyaev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\VKuldyaev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\VKuldyaev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\rest-assured\4.0.0\rest-assured-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\VKuldyaev\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\VKuldyaev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\VKuldyaev\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\VKuldyaev\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\VKuldyaev\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\VKuldyaev\.m2\repository\org\hamcrest\hamcrest-library\2.1\hamcrest-library-2.1.jar;C:\Users\VKuldyaev\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\xml-path\4.0.0\xml-path-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\VKuldyaev\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\VKuldyaev\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\VKuldyaev\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\json-path\4.0.0\json-path-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\rest-assured-common\4.0.0\rest-assured-common-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\VKuldyaev\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\VKuldyaev\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-junit5\2.13.0\allure-junit5-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.0\allure-junit-platform-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\VKuldyaev\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kaliningrad"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="c:\Program Files\Java\jdk1.8.0_92\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\VKULDY~1\AppData\Local\Temp\surefire4749878245289172477\surefirebooter3305518837055945644.jar C:\Users\VKuldyaev\AppData\Local\Temp\surefire4749878245289172477 2021-07-22T12-50-49_693-jvmRun1 surefire3579175365030343356tmp surefire_04068378233542865205tmp"/>
+    <property name="surefire.test.class.path" value="C:\java\prg\Java\target\test-classes;C:\java\prg\Java\target\classes;C:\Users\VKuldyaev\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\VKuldyaev\.m2\repository\org\slf4j\slf4j-simple\1.7.21\slf4j-simple-1.7.21.jar;C:\Users\VKuldyaev\.m2\repository\org\slf4j\slf4j-api\1.7.21\slf4j-api-1.7.21.jar;C:\Users\VKuldyaev\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\VKuldyaev\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\VKuldyaev\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\rest-assured\4.0.0\rest-assured-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\codehaus\groovy\groovy\2.5.6\groovy-2.5.6.jar;C:\Users\VKuldyaev\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.6\groovy-xml-2.5.6.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\VKuldyaev\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\VKuldyaev\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\VKuldyaev\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\Users\VKuldyaev\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\VKuldyaev\.m2\repository\org\hamcrest\hamcrest-library\2.1\hamcrest-library-2.1.jar;C:\Users\VKuldyaev\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\xml-path\4.0.0\xml-path-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\VKuldyaev\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\VKuldyaev\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\VKuldyaev\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\json-path\4.0.0\json-path-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\codehaus\groovy\groovy-json\2.5.6\groovy-json-2.5.6.jar;C:\Users\VKuldyaev\.m2\repository\io\rest-assured\rest-assured-common\4.0.0\rest-assured-common-4.0.0.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\VKuldyaev\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\VKuldyaev\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-junit5\2.13.0\allure-junit5-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-junit-platform\2.13.0\allure-junit-platform-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-java-commons\2.13.0\allure-java-commons-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\io\qameta\allure\allure-model\2.13.0\allure-model-2.13.0.jar;C:\Users\VKuldyaev\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\VKuldyaev\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;C:\Users\VKuldyaev\.m2\repository\org\junit\platform\junit-platform-launcher\1.4.0\junit-platform-launcher-1.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\VKuldyaev"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="c:\Program Files\Java\jdk1.8.0_92\jre"/>
+    <property name="basedir" value="C:\java\prg\Java"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\VKULDY~1\AppData\Local\Temp\surefire4749878245289172477\surefirebooter3305518837055945644.jar;C:\Users\VKuldyaev\.m2\repository/org/aspectj/aspectjweaver/1.9.4/aspectjweaver-1.9.4.jar"/>
+    <property name="sun.boot.class.path" value="c:\Program Files\Java\jdk1.8.0_92\jre\lib\resources.jar;c:\Program Files\Java\jdk1.8.0_92\jre\lib\rt.jar;c:\Program Files\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.8.0_92\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.8.0_92\jre\lib\jce.jar;c:\Program Files\Java\jdk1.8.0_92\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.8.0_92\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.8.0_92\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_92-b14"/>
+    <property name="user.name" value="VKuldyaev"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="c:\Program Files\Java\jdk1.8.0_92\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\VKuldyaev\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\VKULDY~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_92"/>
+    <property name="user.dir" value="C:\java\prg\Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="c:\Program Files\Java\jdk1.8.0_92\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft MPI\Bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files (x86)\dotnet\;c:\java\apache-maven-3.8.1\bin\;c:\Program Files\Java\jdk1.8.0_92\\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Gradle\gradle-7.1.1\bin;C:\Users\VKuldyaev\scoop\shims;C:\Users\VKuldyaev\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\VKuldyaev\.dotnet\tools;C:\Microsoft VS Code\bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.92-b14"/>
+    <property name="java.ext.dirs" value="c:\Program Files\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="AvatarSet" classname="Tests.AvatarTests" time="11.496">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;500&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <500>.
+
+	at Tests.AvatarTests.AvatarSet(AvatarTests.java:24)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 500 Internal Server Error
+Transfer-Encoding: chunked
+Content-Type: text/plain
+Server: Microsoft-IIS/10.0
+Date: Thu, 22 Jul 2021 10:50:39 GMT
+
+Autofac.Core.DependencyResolutionException: An exception was thrown while activating Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator -> О»:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorOptions -> Microsoft.Extensions.Options.OptionsManager`1[[Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorOptions, Swashbuckle.AspNetCore.SwaggerGen, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d84d99fb0135530a]] -> Microsoft.Extensions.Options.OptionsFactory`1[[Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorOptions, Swashbuckle.AspNetCore.SwaggerGen, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d84d99fb0135530a]] -> О»:Microsoft.Extensions.Options.IConfigureOptions`1[[Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorOptions, Swashbuckle.AspNetCore.SwaggerGen, Version=6.1.1.0, Culture=neutral, PublicKeyToken=d84d99fb0135530a]][] -> Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while invoking the constructor 'Void .ctor(Microsoft.Extensions.Options.IOptions`1[Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions], System.IServiceProvider, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)' on type 'ConfigureSwaggerGeneratorOptions'.
+ ---> System.IO.FileNotFoundException: Could not find file 'C:\CB\Release\UNIVERSAL_SERVICE\Neolant.PFEI.UniversalService.xml'.
+File name: 'C:\CB\Release\UNIVERSAL_SERVICE\Neolant.PFEI.UniversalService.xml'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass30_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at Neolant.PFEI.UniversalService.Startup.<>c.<ConfigureServices>b__4_2(SwaggerGenOptions c) in C:\agent\_work\15\s\Neolant.PFEI.UniversalService\Startup.cs:line 72
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at lambda_method159(Closure , Object[] )
+   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Activators.Reflection.BoundConstructor.Instantiate()
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Reflection.ReflectionActivator.<ConfigurePipeline>b__11_0(ResolveRequestContext ctxt, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass14_0.<BuildPipeline>b__1(ResolveRequestContext ctxt)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext ctxt)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest request)
+   at Autofac.ResolutionExtensions.TryResolveService(IComponentContext context, Service service, IEnumerable`1 parameters, Object& instance)
+   at Autofac.ResolutionExtensions.ResolveOptionalService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.ResolveOptional(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method714(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+HEADERS
+=======
+Accept: */*
+Accept-Encoding: gzip,deflate
+Authorization: Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Connection: Keep-Alive
+Content-Length: 0
+Content-Type: application/json; charset=UTF-8
+Host: vm-cb-bifrost.kld.neolant:8383
+User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_92)
+
+]]></system-out>
+  </testcase>
+</testsuite>
