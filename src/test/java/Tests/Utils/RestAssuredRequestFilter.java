@@ -1,8 +1,6 @@
-package Tests;
+package Tests.Utils;
 
-import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
-import io.restassured.RestAssured;
 import io.restassured.filter.Filter;
 import io.restassured.filter.FilterContext;
 import io.restassured.internal.support.Prettifier;
@@ -11,7 +9,6 @@ import io.restassured.specification.FilterableRequestSpecification;
 import io.restassured.specification.FilterableResponseSpecification;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.junit.jupiter.api.Assertions;
 
 public class RestAssuredRequestFilter implements Filter {
     private static final Log log = LogFactory.getLog(RestAssuredRequestFilter.class);

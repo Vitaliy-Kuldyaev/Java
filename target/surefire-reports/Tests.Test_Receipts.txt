@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Tests.Test_Receipts
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.837 s - in Tests.Test_Receipts
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.461 s - in Tests.Test_Receipts

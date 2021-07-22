@@ -1,0 +1,21 @@
+[ {
+  "uid" : "efcbdba45448c99a",
+  "name" : "UnRest_Metod_Get_RecepiesId()",
+  "time" : {
+    "start" : 1623856341878,
+    "stop" : 1623856349775,
+    "duration" : 7897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e073e96371c9f843",
+  "name" : "UnRest_Metod_Get_MessageId()",
+  "time" : {
+    "start" : 1623856356538,
+    "stop" : 1623856362439,
+    "duration" : 5901
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

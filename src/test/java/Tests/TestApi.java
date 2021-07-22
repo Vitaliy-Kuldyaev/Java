@@ -1,5 +1,7 @@
 package Tests;
 
+import Tests.Utils.BaseTestMetod;
+import Tests.Utils.EndPoints;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -18,7 +20,8 @@ public class TestApi {
     /// Step4 - POST "/messages" Завершаем сессию
     /// Created by : V. Kuldyaev 01.06.2021
     @Test
-    public void UnRest_Metod_POST_CreateMessage() throws IOException, InterruptedException {
+    public void UnRest_Metod_POST_CreateMessage() th
+    rows IOException, InterruptedException {
         ///
         BaseTestMetod baseTestMetod = new BaseTestMetod();
         String Test_Path = "";

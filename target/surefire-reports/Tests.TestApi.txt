@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Tests.TestApi
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.967 s - in Tests.TestApi
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.789 s <<< FAILURE! - in Tests.TestApi
+UnRest_Metod_Get_MessageId  Time elapsed: 0.786 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Step 1 : Ошибка - Создание сообщения ==> expected: <200> but was: <406>
+	at Tests.TestApi.UnRest_Metod_Get_MessageId(TestApi.java:165)
+

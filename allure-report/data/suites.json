@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Tests.Test_Receipts",
+    "children" : [ {
+      "name" : "UnRest_Metod_Get_RecepiesId()",
+      "uid" : "efcbdba45448c99a",
+      "parentUid" : "06b2c02bb5babeed67561c69a6e24b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623856341878,
+        "stop" : 1623856349775,
+        "duration" : 7897
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "06b2c02bb5babeed67561c69a6e24b44"
+  }, {
+    "name" : "Tests.TestApi",
+    "children" : [ {
+      "name" : "UnRest_Metod_Get_MessageId()",
+      "uid" : "e073e96371c9f843",
+      "parentUid" : "d1e127deaa97399977cccac93c4c328d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623856356538,
+        "stop" : 1623856362439,
+        "duration" : 5901
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d1e127deaa97399977cccac93c4c328d"
+  } ]
+}

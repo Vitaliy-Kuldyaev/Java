@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 16 17:12:21 EET 2021","Wed Jun 16 17:12:29 EET 2021","7897","","Tests.Test_Receipts","","Tests.Test_Receipts","UnRest_Metod_Get_RecepiesId","UnRest_Metod_Get_RecepiesId()","Получаем квитанции"
+"passed","Wed Jun 16 17:12:36 EET 2021","Wed Jun 16 17:12:42 EET 2021","5901","","Tests.TestApi","","Tests.TestApi","UnRest_Metod_Get_MessageId","UnRest_Metod_Get_MessageId()","Получаем сообщение"

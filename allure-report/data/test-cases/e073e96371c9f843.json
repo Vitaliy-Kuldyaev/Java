@@ -1,0 +1,116 @@
+{
+  "uid" : "e073e96371c9f843",
+  "name" : "UnRest_Metod_Get_MessageId()",
+  "fullName" : "Tests.TestApi.UnRest_Metod_Get_MessageId",
+  "historyId" : "abf9fb1d8b150a4619c8d7f472825cf5",
+  "time" : {
+    "start" : 1623856356538,
+    "stop" : 1623856362439,
+    "duration" : 5901
+  },
+  "description" : "Получаем сообщение",
+  "descriptionHtml" : "<p>Получаем сообщение</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Получаем сообщение",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fd2eea0569006f1",
+      "name" : "Данные по запросу: POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages \n",
+      "source" : "1fd2eea0569006f1.txt",
+      "type" : "text/plain",
+      "size" : 1931
+    }, {
+      "uid" : "90fd61947415129b",
+      "name" : "Данные по запросу: POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb/file ... \n",
+      "source" : "90fd61947415129b.txt",
+      "type" : "text/plain",
+      "size" : 579
+    }, {
+      "uid" : "28ae3b1d95578541",
+      "name" : "Данные по запросу: PUT  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb/files ... \n",
+      "source" : "28ae3b1d95578541.txt",
+      "type" : "text/plain",
+      "size" : 1014
+    }, {
+      "uid" : "93d3140c3608f0fa",
+      "name" : "Данные по запросу: POST  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb \n",
+      "source" : "93d3140c3608f0fa.txt",
+      "type" : "text/plain",
+      "size" : 292
+    }, {
+      "uid" : "4b84d9b0bdfbd4d7",
+      "name" : "Данные по запросу: GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/fca772bd-5862-4764-9853-a4e2b5fb88cb/downl ... \n",
+      "source" : "4b84d9b0bdfbd4d7.bin",
+      "type" : "application/octet-stream",
+      "size" : 2822
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "API Tests"
+  }, {
+    "name" : "feature",
+    "value" : "API Test Messages"
+  }, {
+    "name" : "story",
+    "value" : "API Test - create message + create session + upload (1) file + close message"
+  }, {
+    "name" : "host",
+    "value" : "DBG-CRICKET"
+  }, {
+    "name" : "thread",
+    "value" : "13708@DBG-CRICKET.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.TestApi"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.TestApi"
+  }, {
+    "name" : "testMethod",
+    "value" : "UnRest_Metod_Get_MessageId"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.TestApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64170a16345c949f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623855756643,
+        "stop" : 1623855763350,
+        "duration" : 6707
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e073e96371c9f843.json",
+  "parameterValues" : [ ]
+}

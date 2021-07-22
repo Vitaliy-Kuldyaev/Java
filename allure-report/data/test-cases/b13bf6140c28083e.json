@@ -1,0 +1,100 @@
+{
+  "uid" : "b13bf6140c28083e",
+  "name" : "UnRest_Metod_Get_RecepiesId()",
+  "fullName" : "Tests.Test_Receipts.UnRest_Metod_Get_RecepiesId",
+  "historyId" : "49abdade047437456e107a24f279e07e",
+  "time" : {
+    "start" : 1623856086113,
+    "stop" : 1623856093476,
+    "duration" : 7363
+  },
+  "description" : "Получаем квитанции",
+  "descriptionHtml" : "<p>Получаем квитанции</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Получаем квитанции",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65aaff666664c6a",
+      "name" : "Header",
+      "source" : "65aaff666664c6a.txt",
+      "type" : "text/plain",
+      "size" : 117
+    }, {
+      "uid" : "d25785e0de0a4973",
+      "name" : "Данные по запросу: GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/A43E9B4A-974A-489A-8957-7D10BC789990/recei ... \n",
+      "source" : "d25785e0de0a4973.txt",
+      "type" : "text/plain",
+      "size" : 51003
+    }, {
+      "uid" : "47e35299a6c2364a",
+      "name" : "Header",
+      "source" : "47e35299a6c2364a.txt",
+      "type" : "text/plain",
+      "size" : 117
+    }, {
+      "uid" : "236c9cca92576efa",
+      "name" : "Данные по запросу: GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/A43E9B4A-974A-489A-8957-7D10BC789990/recei ... \n",
+      "source" : "236c9cca92576efa.txt",
+      "type" : "text/plain",
+      "size" : 3054
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "API Tests"
+  }, {
+    "name" : "feature",
+    "value" : "API Test Receipts"
+  }, {
+    "name" : "story",
+    "value" : "/messages/IDMessage/receipts"
+  }, {
+    "name" : "host",
+    "value" : "DBG-CRICKET"
+  }, {
+    "name" : "thread",
+    "value" : "4404@DBG-CRICKET.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.Test_Receipts"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Test_Receipts"
+  }, {
+    "name" : "testMethod",
+    "value" : "UnRest_Metod_Get_RecepiesId"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.Test_Receipts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b13bf6140c28083e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,88 @@
+{
+  "uid" : "dfa033f0854326b7",
+  "name" : "UnRest_Metod_Get_RecepiesId()",
+  "fullName" : "Tests.Test_Receipts.UnRest_Metod_Get_RecepiesId",
+  "historyId" : "49abdade047437456e107a24f279e07e",
+  "time" : {
+    "start" : 1623855763418,
+    "stop" : 1623855768277,
+    "duration" : 4859
+  },
+  "description" : "Получаем квитанции",
+  "descriptionHtml" : "<p>Получаем квитанции</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Получаем квитанции",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5887a62f3e13b76",
+      "name" : "Данные по запросу: GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/A43E9B4A-974A-489A-8957-7D10BC789990/recei ... \n",
+      "source" : "5887a62f3e13b76.txt",
+      "type" : "text/plain",
+      "size" : 51003
+    }, {
+      "uid" : "fa2b57cb120a322c",
+      "name" : "Данные по запросу: GET  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/A43E9B4A-974A-489A-8957-7D10BC789990/recei ... \n",
+      "source" : "fa2b57cb120a322c.txt",
+      "type" : "text/plain",
+      "size" : 3054
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "API Tests"
+  }, {
+    "name" : "story",
+    "value" : "/messages/IDMessage/receipts"
+  }, {
+    "name" : "feature",
+    "value" : "API Test Receipts"
+  }, {
+    "name" : "host",
+    "value" : "DBG-CRICKET"
+  }, {
+    "name" : "thread",
+    "value" : "16420@DBG-CRICKET.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "Tests.Test_Receipts"
+  }, {
+    "name" : "testClass",
+    "value" : "Tests.Test_Receipts"
+  }, {
+    "name" : "testMethod",
+    "value" : "UnRest_Metod_Get_RecepiesId"
+  }, {
+    "name" : "suite",
+    "value" : "Tests.Test_Receipts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfa033f0854326b7.json",
+  "parameterValues" : [ ]
+}

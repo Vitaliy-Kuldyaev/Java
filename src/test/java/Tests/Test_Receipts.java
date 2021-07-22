@@ -1,5 +1,7 @@
 package Tests;
 
+import Tests.Utils.BaseTestMetod;
+import Tests.Utils.EndPoints;
 import io.qameta.allure.*;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Assertions;

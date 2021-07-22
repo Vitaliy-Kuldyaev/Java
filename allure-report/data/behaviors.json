@@ -1,0 +1,51 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "API Tests",
+    "children" : [ {
+      "name" : "API Test Receipts",
+      "children" : [ {
+        "name" : "/messages/IDMessage/receipts",
+        "children" : [ {
+          "name" : "UnRest_Metod_Get_RecepiesId()",
+          "uid" : "efcbdba45448c99a",
+          "parentUid" : "dbb3a5353fc87fecd65d7ab15cd8e2b5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623856341878,
+            "stop" : 1623856349775,
+            "duration" : 7897
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dbb3a5353fc87fecd65d7ab15cd8e2b5"
+      } ],
+      "uid" : "dbef363242c11d9dfe4efc6cb058b5d8"
+    }, {
+      "name" : "API Test Messages",
+      "children" : [ {
+        "name" : "API Test - create message + create session + upload (1) file + close message",
+        "children" : [ {
+          "name" : "UnRest_Metod_Get_MessageId()",
+          "uid" : "e073e96371c9f843",
+          "parentUid" : "c3238fa48615667d1354abd92ccd9b42",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623856356538,
+            "stop" : 1623856362439,
+            "duration" : 5901
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c3238fa48615667d1354abd92ccd9b42"
+      } ],
+      "uid" : "2feff757b4670fc5f3f480d74cfabe48"
+    } ],
+    "uid" : "ba457c5104c0b56216141dfec87dedf8"
+  } ]
+}

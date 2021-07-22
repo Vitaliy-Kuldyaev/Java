@@ -1,0 +1,8 @@
+{
+  "bifrost_user" : "vmcbtest",
+  "bifrost_pass" : "Ghjdthrf123!",
+  "bifrost_basePath" : "http://vm-cb-bifrost.kld.neolant:8181",
+
+  "avatarItemId": "C47BD317-4F02-425F-9516-A329B2A4A449",
+  "userId": "C47BD317-4F02-425F-9516-A329B2A4A449"
+}

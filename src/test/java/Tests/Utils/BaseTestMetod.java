@@ -1,4 +1,4 @@
-package Tests;
+package Tests.Utils;
 
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;

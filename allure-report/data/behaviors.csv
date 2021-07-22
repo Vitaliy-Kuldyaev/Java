@@ -1,0 +1,3 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"API Tests","API Test Receipts","/messages/IDMessage/receipts","0","0","1","0","0"
+"API Tests","API Test Messages","API Test - create message + create session + upload (1) file + close message","0","0","1","0","0"

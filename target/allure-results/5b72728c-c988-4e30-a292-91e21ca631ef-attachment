@@ -1,0 +1,35 @@
+Header :
+Authorization=Basic dm1jYnRlc3Q6R2hqZHRocmYxMjMh
+Accept=*/*
+Access-Control-Expose-Headers=Content-Range
+Content-Range=bytes 0-1245/1246
+Connection=keep-alive
+Expect=100-continue
+Content-Type=application/octet-stream; charset=ISO-8859-1
+
+Запрос : 
+PUT  http://vm-cb-bifrost.kld.neolant:8383/rapi2/messages/82081bc6-81bb-424c-ac89-ad6600c332ab/files/5d9d6364-71ce-4b0a-9528-ad6600c33252
+Body : 
+G:\1\Tests\63276 Кварц периодические операции\Kvit_deliver3.zip
+
+
+Ответ : 
+ Статус :201
+
+Body: 
+{
+    "Id": "5d9d6364-71ce-4b0a-9528-ad6600c33252",
+    "Name": "OKAXBRL1Reporting.zip.enc",
+    "Description": null,
+    "Encrypted": true,
+    "SignedFile": null,
+    "Size": 1246,
+    "RepositoryInfo": [
+        {
+            "RepositoryType": "http",
+            "Host": "vm-cb-bifrost.kld.neolant",
+            "Port": 8383,
+            "Path": "rapi2/messages/82081bc6-81bb-424c-ac89-ad6600c332ab/files/5d9d6364-71ce-4b0a-9528-ad6600c33252/download"
+        }
+    ]
+}
