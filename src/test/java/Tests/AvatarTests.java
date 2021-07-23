@@ -22,13 +22,16 @@ public class AvatarTests {
         ///
         GetTokenAuth GetTokenAuth = new GetTokenAuth();
         String TokenAuth =GetTokenAuth.GetTokenAuth();
+        System.out.println(TokenAuth);
         BaseTestMetod baseTestMetod = new BaseTestMetod();
         String Test_Path = "/Avatar/Get";
         ////////////////////////////////////////////////////////////////////////
         /// Создаем сообщение
         //Test_Path = "/messages";
-        Response response = baseTestMetod.POST_Method_ReturnResponeAsString(new EndPoints().GetJsonFromHashMapMessage_WithFileInBody(EndPoints.FileForMEssages),EndPoints.User_bifrost,EndPoints.Password_bifrost,EndPoints.REST_ContentType,EndPoints.BasePath_bifrost+ Test_Path);
-        Assertions.assertEquals(EndPoints.REST_HttpStatus_OK , response.getStatusCode(), "Step 1 : Ошибка - Создание сообщения");
-
+       // Response response = baseTestMetod.POST_Method_ReturnResponeAsString(new EndPoints().GetJsonFromHashMapMessage_WithFileInBody(EndPoints.FileForMEssages),EndPoints.User_bifrost,EndPoints.Password_bifrost,EndPoints.REST_ContentType,EndPoints.BasePath_bifrost+ Test_Path);
+        //String Token = response.jsonPath().getString("Token");
+        //Assertions.assertEquals(EndPoints.REST_HttpStatus_OK , response.getStatusCode(), "Ошибка - Токен не найден");
+        //System.out.println(Token);
+        //Assertions.assertTrue(Token.length()>10,"Ошибка - Токен не найден");
     }
 }

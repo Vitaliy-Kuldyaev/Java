@@ -29,17 +29,16 @@ public class GetTokenAuth  {
                                 "  Password: \"Ghjdthrf123!\"\n" +
                                 "}")
                         .when()
-                        .log().all()
+                        //.log().all()
                         .post(path+"/api/auth")
                         .then()
-                        .log().all()
+                        //.log().all()
                         .extract().response();
 
-
-        System.out.println(response.contentType());
-        System.out.println(response.getBody().asString());
-
-        String auth_token = response.path("authorization_token").toString();
-        return auth_token;
+        String Token = response.jsonPath().getString("data.Token");
+        //String Id = response.jsonPath().getString("data.User.Id");
+        //System.out.println(Id);
+        //System.out.println(Token);
+        return Token;
     }
 }
